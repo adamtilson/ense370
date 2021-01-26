@@ -496,7 +496,7 @@ Answer: "L _ B O R _ T O R _"
 Hints: You may wish to make use of the following utilities:
 - Java `Scanner`
 - Java `StringBuilder`
-- String Class Functions, such as `.toUpperCase`, `.contains`, `.charAt`
+- String Class Functions, such as `.toUpperCase`, `.contains`, `.charAt`, `.equals`
 
 ---
 
