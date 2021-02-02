@@ -426,7 +426,7 @@ Please submit your assignment using the course submission utility on Snoopy.
 
 Please export your UML files as an image, e.g. `.png` or `.pdf`.
 
-You may zip your UML and source files. 
+You may zip your UML files. 
 
 Here is the command for submitting this assignment:
 ```
