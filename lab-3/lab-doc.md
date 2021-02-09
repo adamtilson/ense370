@@ -202,11 +202,11 @@ public class Game {
 ```
 Part 3: Answer the following questions in a text document:
    
-3.a) Picking up from where your code left off in part 2, If you were to add a new room, which classes would need to be added? Which classes would need to change?
+3.a) Picking up from where your code left off in part 2, If you were to add a new room type, which is available on all floors, which classes would need to be added? Which classes would need to change?
    
-3.b) Picking up from where your code left off in part 2, If you were to add a new floor, which classes would need to be added? Which classes would need to change?
+3.b) Picking up from where your code left off in part 2, If you were to add a new floor, which contains all of the existing room types, which classes would need to be added? Which classes would need to change?
 
-   You do not need to code up these adjustments, just think about it. 
+You do not need to code the adjustments, just list them in the text file. 
    
 ## Submission
 
