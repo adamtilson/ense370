@@ -189,7 +189,7 @@ Additionally, this code is not very flexible.
 
 What if, from gameplay testing, we discover that swords are too powerful and need to have their damage reduced (nerfed) for balance? We would have manually fix all of the classes that use a sword.
 
-What if we needed to add a new weapon weapon? How many new classes would we need? 
+What if we needed to add a new weapon? How many new classes would we need? 
 
 What if we wanted to a new type of equipment, like shields or armor. We would have way too many classes.
 
