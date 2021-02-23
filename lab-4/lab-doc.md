@@ -101,7 +101,7 @@ Now, consider an adjustment to the game as follows:
 - This will print all of the equipped weapons in the attack descrption.
 - It will also sum the damages of each weapon together.
 
-We can use the ability of classes to invoke their parents class to easily achieve this through inheritance. Consider the branch of a Knight with two Swords...
+We can use the ability of classes to invoke their parents class to easily achieve this through inheritance. Consider the branch of a Knight with a sword and a bow...
 
 ![Knight Two Weapons][Knight Two Weapons]
 
