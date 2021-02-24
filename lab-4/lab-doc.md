@@ -277,5 +277,6 @@ D. Banas, [Decorator Design Patterns](https://www.youtube.com/watch?v=j40kRwSm4V
 [Decorator]: res/decorator.png "The decorator design pattern"
 [Possible Configuration]: res/possible-configuration.png "One possible knight configuration using the decorator"
 
-Adam's Notes:
-// It's composition, because, if it is in use by the one player, it can't be used by another player.
+Adam's Thoughts:
+
+// In our example, is it composition or aggregation? It's composition, because, if it is in use by one player, it can't be used by another player. It's aggregation because if the player died, the weapon could be reused. If you are reading this, tell me what you think!
