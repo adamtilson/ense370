@@ -89,11 +89,11 @@ As before, you goal is to refactor your code to use the observer pattern.
 
 ## Assignment
 
-Your assignment is to document and complete the application using the observer pattern.
+Your assignment is to add the observer design pattern to the system as it currently exists.
 
-Part 1. Create the complete UML Class diagram for this problem. Including all abstract and concrete classes. You may adapt the `.uxf` file included in the `assn-starter` files
+Part 1. Create the complete UML Class diagram for this problem, which includes use of the observer design pattern. Include abstract and concrete classes. You may adapt the `.uxf` file included in the `assn-starter` files
 
-Part 2. Create Java files to implement the rest of the application, including required abstract classes and concrete classes. Write some appropriate descriptions. The code should run with the following Game class, which is included in the `eg-2` files:
+Part 2. Create Java files to add the observer design pattern to the application as it currently exists. You do not need to add additional functionality. Please include both the abstract and concrete classes.
 
 Optional: Refactor the Code! As you look through the code, be on the lookout for code smells and refactor them. We'll have a full lab on refactoring in the next session!
 
@@ -118,7 +118,6 @@ You may check that you have submitted your assignment correctly with the command
 ```
 ~ense370/bin/submit --check
 ```
-
 ---
 
 ## References
