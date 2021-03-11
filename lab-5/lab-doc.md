@@ -89,11 +89,11 @@ As before, you goal is to refactor your code to use the observer pattern.
 
 ## Assignment
 
-Your assignment is to add the observer design pattern to the system as it currently exists.
+Your assignment is to add the observer design pattern to the system as it currently exists. Identify which classes should be implemented as the subject and the observer, and as well which part of the state needs to be known in both the subject and the observer, and use the observer pattern to ensure that the observer is notified any time the subject state changes.
 
 Part 1. Create the complete UML Class diagram for this problem, which includes use of the observer design pattern. Include abstract and concrete classes. You may adapt the `.uxf` file included in the `assn-starter` files
 
-Part 2. Create Java files to add the observer design pattern to the application as it currently exists. You do not need to add additional functionality. Please include both the abstract and concrete classes.
+Part 2. Create Java files to add the observer design pattern to the application as it currently exists. You do not need to add additional functionality. Please include both the abstract and concrete classes. You may need to modify the Game class to account for the use of the observer pattern.
 
 Optional: Refactor the Code! As you look through the code, be on the lookout for code smells and refactor them. We'll have a full lab on refactoring in the next session!
 
