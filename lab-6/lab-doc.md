@@ -142,9 +142,10 @@ I can spot at least 3 which could be used, but possibly more too!
 ## The six refactors we'll do in the pre-lab (maybe?)
 1. Remove magic numbers from sendCoffeeCodes
 2. Change conditional logic to HashMap lookups
-3. Decouple the print interface
-4. Add more tests
-5. Add class variables
+3. Decouple the print interface so we can do more testing
+4. Add more tests to improve refactoring
+5. Add class variables to reduce passing around variables
+6. Extract the Input module into a singleton class
 
 The included code, assn-starter, should pick up after these refactors are complete!
 
@@ -179,9 +180,7 @@ M. Fowler, [Refactoring Catalog](https://refactoring.com/catalog/), ThoughtWorks
 J. Atwood, [Code Smells](https://blog.codinghorror.com/code-smells/), Coding Horror
 
 
-If you use a readme.md, and wish to do diffs, you can implement them lile this:
-
-I wish I had learned about this sooner!
+If you use a readme.md, and wish to document code with diffs, you can implement them like this:
 
 ```diff
 public class Hello
