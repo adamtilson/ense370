@@ -162,7 +162,8 @@ Please perform the following refactors:
 3. Function level refactor
    - Find at least 10 small refactors
    - Briefly describe the changes you made in a readme file - list the problem as a code smell, and your solution
-  
+   * If you decide to do a full rewrite, document which of your functions map to the functionality of the existing code.
+    
 - Your code should not change anything on the front end, e.g. how the cup is displayed, the price or the coffee codes. It can change anything internal, including interfaces, but be sure to update tests to use the new interfaces!
    
 ## Submission
