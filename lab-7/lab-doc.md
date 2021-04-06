@@ -344,20 +344,20 @@ Seems to be fixed. Of course, this isn't so bad with algorithms that are well kn
 Imagine you are working at a company which has just been victim of a RansomWare attack, and all of the source files are now encrypted and thus inaccessible. Some of the class files, but not all, are also missing. You are tasked with re-assembling the login subsystem, the remaining files which are included in the `assn-starter` directory. Here's how you believe the system to work:
 
 From the `Login` class (recovered), the main function is called, where users can register or login...
-    - When registering...
-      - A `User` class (missing), is instantiated using some of the User's information
-      - Using the `User`s instance, a `salt` String is generated from the `Salt` class (missing)
-        - The `salt` is a deterministic String generated from some combination of information accessible from the `User` class
-        - Assume that the `salt` class only has access to the `User` fields, as well as the `CharSort` function, and String concatenate operation 
-        - The `Salt` class accesses the `CharSort` class, so this is going to be used as part of the solution
-    - Together, the password and `salt` is then hashed using the `Hash` class (recovered).
-    - This salted and hashed password is then used to authenticate the user
-      - The general idea:
-      - ` hash (password, salt) => [1254, 5254, 8523, 12548, ...]`
-      - By definition, hash functions should be one-way, meaning the input cannot be reverse-engineered from the output. 
-        - However, this function was intended to be breakable.
-        - For example, each input character must map to exactly one output character, and vice versa
-    - A `LoginTest` class (recovered) exists to create and test the login class
+- When registering...
+  - A `User` class (missing), is instantiated using some of the User's information
+  - Using the `User`s instance, a `salt` String is generated from the `Salt` class (missing)
+    - The `salt` is a deterministic String generated from some combination of information accessible from the `User` class
+    - Assume that the `salt` class only has access to the `User` fields, as well as the `CharSort` function, and String concatenate operation 
+    - The `Salt` class accesses the `CharSort` class, so this is going to be used as part of the solution
+- Together, the password and `salt` is then hashed using the `Hash` class (recovered).
+- This salted and hashed password is then used to authenticate the user
+  - The general idea:
+  - ` hash (password, salt) => [1254, 5254, 8523, 12548, ...]`
+  - By definition, hash functions should be one-way, meaning the input cannot be reverse-engineered from the output. 
+    - However, this function was intended to be breakable.
+    - For example, each input character must map to exactly one output character, and vice versa
+- A `LoginTest` class (recovered) exists to create and test the login class
 
 Your task:
 1. Reconstruct the User class
