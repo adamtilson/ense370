@@ -370,4 +370,27 @@ Approaches and hints:
 - You could also try to work backward, eg. look at the expected outputs and see how they are created.
 - You can also try to do both - work forward until you get stuck, and then work backward, until you meet at a solution.
 - You will know the system is recovered if the existing Test Cases pass
-- It's safe to assume that all of the algorithms provided have some fundamental flaws, making them possible to reverse engineer for learning purposes, and really shouldn't be considered secure enough for real world usage!
+- It's safe to assume that all of the algorithms provided have some fundamental flaws, making them possible to reverse engineer for learning purposes, and really soulnd't be considered secure enough for real world usage!
+  
+---
+
+## Submission
+
+Please submit all of the reverse engineered / reconstructed Java files. Your project directory should include:
+- CharSort.java
+- Hash.java
+- Input.java
+- Login.java
+- LoginTest.java
+- Salt.java
+- User.java
+
+You should not change the functionality of any of the recovered files, eg. the .java files generated from: 
+
+- CharSort.class
+- Hash.class
+- Input.class
+- Login.class
+- LoginTest.class
+
+However, you can (and probably should) rename the automatically generated variable names, and add any functions you need to help you understand what's going on.
